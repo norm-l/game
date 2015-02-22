@@ -1,4 +1,4 @@
-package miniproject.MoveableObjects;
+package miniproject.moveableobjects;
 
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
@@ -25,7 +25,7 @@ public class Player implements KeyListener {
 	
 	private float fixDt = 47f/60F;
 	
-	private boolean mapMove = false;
+	private boolean mapMove = true;
 	
 	public Player() {// put player in middle of screen
 		pos = new Vector2F(Main.width / 2 - width / 2, Main.height / 2 - height / 2);

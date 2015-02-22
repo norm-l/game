@@ -3,7 +3,7 @@ package miniproject.generator;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-import miniproject.MoveableObjects.Player;
+import miniproject.moveableobjects.Player;
 import miniproject.game.Main;
 import miniproject.generator.Block.BlockType;
 import miniproject.system.Vector2F;

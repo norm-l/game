@@ -21,7 +21,7 @@ public class MPGameLoop extends JPanel implements Runnable{
 	public Graphics2D graphics2D;
 	private BufferedImage img;
 	
-	public static double currentFPS = 60D;
+	public static double currentFPS = 120D;
 
 	public MPGameLoop(int width, int height) {
 		this.width = width;
